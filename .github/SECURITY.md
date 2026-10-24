@@ -8,7 +8,7 @@ Security fixes are made for the latest release of django-eav2.
 
 Please do not report security problems in a public issue. Use the
 **Report a vulnerability** button on the
-[Security tab](https://github.com/jazzband/django-eav2/security/advisories/new)
+[Security tab](https://github.com/django-commons/django-eav2/security/advisories/new)
 of the repository to tell the maintainers privately.
 
 Include the django-eav2, Django and Python versions, and the steps to reproduce

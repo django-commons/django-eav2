@@ -44,10 +44,10 @@ dependencies = [
 name = "Mauro Lizaur"
 email = "mauro@sdf.org"
 [project.urls]
-Changelog = "https://github.com/jazzband/django-eav2/blob/master/CHANGELOG.md"
+Changelog = "https://github.com/django-commons/django-eav2/blob/main/CHANGELOG.md"
 Documentation = "https://django-eav2.readthedocs.io/en/latest/"
-Issues = "https://github.com/jazzband/django-eav2/issues"
-Repository = "https://github.com/jazzband/django-eav2"
+Issues = "https://github.com/django-commons/django-eav2/issues"
+Repository = "https://github.com/django-commons/django-eav2"
 
 [dependency-groups]
 dev = [

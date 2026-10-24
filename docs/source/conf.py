@@ -89,15 +89,15 @@ html_theme = "shibuya"
 html_static_path = ["_static"]
 
 html_theme_options = {
-    "github_url": "https://github.com/jazzband/django-eav2",
+    "github_url": "https://github.com/django-commons/django-eav2",
     "readthedocs_url": "https://django-eav2.readthedocs.io",
 }
 
 html_context = {
     "source_type": "github",
-    "source_user": "jazzband",
+    "source_user": "django-commons",
     "source_repo": "django-eav2",
-    "source_version": "master",
+    "source_version": "main",
     "source_docs_path": "/docs/source/",
 }
 

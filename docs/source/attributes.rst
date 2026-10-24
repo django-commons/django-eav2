@@ -211,7 +211,7 @@ that you, the developer, know in advance, and a model can express it better:
       - A ``ForeignKey`` or a ``ManyToManyField`` on your own model
 
 If you have a case that these alternatives do not cover, please
-`open an issue <https://github.com/jazzband/django-eav2/issues>`_ before 3.0
+`open an issue <https://github.com/django-commons/django-eav2/issues>`_ before 3.0
 so we can find a better answer.
 
 Before 3.0, migrate the data out of EAV and delete the attributes. The

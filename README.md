@@ -1,8 +1,7 @@
-[![Build Status](https://github.com/jazzband/django-eav2/actions/workflows/test.yml/badge.svg)](https://github.com/jazzband/django-eav2/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/jazzband/django-eav2/branch/master/graph/badge.svg?token=BJk3zS22BS)](https://codecov.io/gh/jazzband/django-eav2)
+[![Build Status](https://github.com/django-commons/django-eav2/actions/workflows/test.yml/badge.svg)](https://github.com/django-commons/django-eav2/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/django-commons/django-eav2/branch/main/graph/badge.svg)](https://codecov.io/gh/django-commons/django-eav2)
 [![Python Version](https://img.shields.io/pypi/pyversions/django-eav2.svg)](https://pypi.org/project/django-eav2/)
 [![Django Version](https://img.shields.io/pypi/djversions/django-eav2.svg?color=green)](https://pypi.org/project/django-eav2/)
-[![Jazzband](https://jazzband.co/static/img/badge.svg)](https://jazzband.co/)
 
 ## Django EAV 2
 
@@ -70,5 +69,5 @@ explains the model, when to use it, when to avoid it, and the alternatives.
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). The project is part of
-[Jazzband](https://jazzband.co/), which has a
-[code of conduct](https://jazzband.co/about/conduct).
+[Django Commons](https://github.com/django-commons), and follows its
+[code of conduct](CODE_OF_CONDUCT.md).

@@ -52,6 +52,6 @@ entity-attribute-value pattern fits your problem, read :doc:`concepts`.
     :caption: Project
     :maxdepth: 1
 
-    GitHub <https://github.com/jazzband/django-eav2>
-    Changelog <https://github.com/jazzband/django-eav2/blob/master/CHANGELOG.md>
-    Issues <https://github.com/jazzband/django-eav2/issues>
+    GitHub <https://github.com/django-commons/django-eav2>
+    Changelog <https://github.com/django-commons/django-eav2/blob/main/CHANGELOG.md>
+    Issues <https://github.com/django-commons/django-eav2/issues>
