@@ -4,6 +4,11 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ## Unreleased
 
+### Internal
+
+- Switched to trusted publisher release process with Django Commons.
+- Switched from the Jazzband organization to Django Commons.
+
 ## 2.0.1 (2026-10-23)
 
 ### Bug Fixes
@@ -82,7 +87,7 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ### Bug Fixes
 
-- Fixed `TypeError: 'Q' object is not subscriptable` when combining EAV filters with negated Q objects by @Dresdn in https://github.com/jazzband/django-eav2/pull/846
+- Fixed `TypeError: 'Q' object is not subscriptable` when combining EAV filters with negated Q objects by @Dresdn in https://github.com/django-commons/django-eav2/pull/846
 
 ### Compatibility
 
@@ -101,13 +106,13 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ## What's Changed
 
-- Add database constraints to Value model for data integrity by @Dresdn in https://github.com/jazzband/django-eav2/pull/706
-- Fix for issue #648: Ensure choices are valid (value, label) tuples by @altimore in https://github.com/jazzband/django-eav2/pull/707
+- Add database constraints to Value model for data integrity by @Dresdn in https://github.com/django-commons/django-eav2/pull/706
+- Fix for issue #648: Ensure choices are valid (value, label) tuples by @altimore in https://github.com/django-commons/django-eav2/pull/707
 
 ## 1.7.1 (2024-09-01)
 
 ## What's Changed
-* Restore backward compatibility for Attribute creation with invalid slugs by @Dresdn in https://github.com/jazzband/django-eav2/pull/639
+* Restore backward compatibility for Attribute creation with invalid slugs by @Dresdn in https://github.com/django-commons/django-eav2/pull/639
 
 ## 1.7.0 (2024-09-01)
 
@@ -122,25 +127,25 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ### What's Changed
 
-- Ensure eav.register() Maintains Manager Order by @Dresdn in https://github.com/jazzband/django-eav2/pull/595
-- Update downstream dependencies by @Dresdn in https://github.com/jazzband/django-eav2/pull/597
+- Ensure eav.register() Maintains Manager Order by @Dresdn in https://github.com/django-commons/django-eav2/pull/595
+- Update downstream dependencies by @Dresdn in https://github.com/django-commons/django-eav2/pull/597
 
 ## 1.6.0 (2024-03-14)
 
 ### What's Changed
 
 - Corrects `BaseEntityAdmin` integration into Django Admin site
-- Split model modules by @iacobfred in https://github.com/jazzband/django-eav2/pull/467
-- Add Django 5.0 and Python 3.12 to the testing by @cclauss in https://github.com/jazzband/django-eav2/pull/487
-- Fix typos with codespell by @cclauss in https://github.com/jazzband/django-eav2/pull/489
-- Enhance BaseEntityAdmin by @Dresdn in https://github.com/jazzband/django-eav2/pull/541
-- Remove support for Django < 3.2 and Python < 3.8 by @Dresdn in https://github.com/jazzband/django-eav2/pull/542
+- Split model modules by @iacobfred in https://github.com/django-commons/django-eav2/pull/467
+- Add Django 5.0 and Python 3.12 to the testing by @cclauss in https://github.com/django-commons/django-eav2/pull/487
+- Fix typos with codespell by @cclauss in https://github.com/django-commons/django-eav2/pull/489
+- Enhance BaseEntityAdmin by @Dresdn in https://github.com/django-commons/django-eav2/pull/541
+- Remove support for Django < 3.2 and Python < 3.8 by @Dresdn in https://github.com/django-commons/django-eav2/pull/542
 
 ## 1.5.0 (2023-11-08)
 
 ### Bug Fixes
 
-- Fixes querying with multiple eav kwargs [#395](https://github.com/jazzband/django-eav2/issues/395)
+- Fixes querying with multiple eav kwargs [#395](https://github.com/django-commons/django-eav2/issues/395)
 
 ### Features
 
@@ -160,7 +165,7 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ### Bug Fixes
 
-- Generate missing migrations [#331](https://github.com/jazzband/django-eav2/issues/331)
+- Generate missing migrations [#331](https://github.com/django-commons/django-eav2/issues/331)
 
 ## 1.3.0 (2023-02-10)
 
@@ -171,7 +176,7 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 ### Bug Fixes
 
 - Fixes missing `Add another` button for inlines in `BaseEntityAdmin`
-- Fixes saving of Attribute date types rendering using `BaseDynamicEntityForm` [#261](https://github.com/jazzband/django-eav2/issues/261)
+- Fixes saving of Attribute date types rendering using `BaseDynamicEntityForm` [#261](https://github.com/django-commons/django-eav2/issues/261)
 
 ### Misc
 
@@ -181,22 +186,22 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ### Bug Fixes
 
-- Don't mark doc8 as a dependency [#235](https://github.com/jazzband/django-eav2/issues/235)
+- Don't mark doc8 as a dependency [#235](https://github.com/django-commons/django-eav2/issues/235)
 - Make Read the Docs dependencies all optional
 
 ## 1.2.2 (2022-08-13)
 
 ### Bug Fixes
 
-- Fixes AttributeError when using CSVFormField [#187](https://github.com/jazzband/django-eav2/issues/187)
-- Fixes slug generation for Attribute.name fields longer than 50 characters [#223](https://github.com/jazzband/django-eav2/issues/223)
-- Migrates Attribute.slug to django.db.models.SlugField() [#223](https://github.com/jazzband/django-eav2/issues/223)
+- Fixes AttributeError when using CSVFormField [#187](https://github.com/django-commons/django-eav2/issues/187)
+- Fixes slug generation for Attribute.name fields longer than 50 characters [#223](https://github.com/django-commons/django-eav2/issues/223)
+- Migrates Attribute.slug to django.db.models.SlugField() [#223](https://github.com/django-commons/django-eav2/issues/223)
 
 ## 1.2.1 (2022-02-08)
 
 ### Bug Fixes
 
-- Fixes FieldError when filtering on foreign keys [#163](https://github.com/jazzband/django-eav2/issues/163)
+- Fixes FieldError when filtering on foreign keys [#163](https://github.com/django-commons/django-eav2/issues/163)
 
 ## 1.2.0 (2021-12-18)
 
@@ -224,7 +229,7 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 - Bumps min python version to `3.6.2`
 
-**Full Changelog**: <https://github.com/jazzband/django-eav2/compare/1.0.0...1.1.0>
+**Full Changelog**: <https://github.com/django-commons/django-eav2/compare/1.0.0...1.1.0>
 
 ## 1.0.0 (2021-10-21)
 
@@ -245,7 +250,7 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 - Revamps all tooling, including moving to `poetry`, `pytest`, and `black`
 - Adds Github Actions and Dependabot
 
-**Full Changelog**: <https://github.com/jazzband/django-eav2/compare/0.14.0...1.0.0>
+**Full Changelog**: <https://github.com/django-commons/django-eav2/compare/0.14.0...1.0.0>
 
 ## 0.14.0 (2021-04-23)
 
@@ -254,6 +259,6 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 - This release will be the last to support this range of Django versions: 1.11, 2.0, 2.1, 2.2, 3.0. SInce all of their extended support was ended by Django Project.
 - From the next release only will be supported 2.2 LTS, 3.1, and 3.2 LTS (eventually 4.x)
 
-**Full Changelog**: <https://github.com/jazzband/django-eav2/compare/0.13.0...0.14.0>
+**Full Changelog**: <https://github.com/django-commons/django-eav2/compare/0.13.0...0.14.0>
 
 (Anything before 0.14.0 was not recorded.)
