@@ -86,8 +86,6 @@ exclude_patterns = ["build"]
 
 html_theme = "shibuya"
 
-html_static_path = ["_static"]
-
 html_theme_options = {
     "github_url": "https://github.com/django-commons/django-eav2",
     "readthedocs_url": "https://django-eav2.readthedocs.io",

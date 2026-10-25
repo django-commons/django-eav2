@@ -5,20 +5,20 @@ requires = [ "hatchling" ]
 [project]
 name = "django-eav2"
 version = "2.0.1"
-description = "Entity-Attribute-Value storage for Django"
+description = "Add custom fields to any Django model at runtime: validated, filterable with the ORM, and no schema changes."
 readme = "README.md"
 keywords = [
-  "database",
+  "custom-fields",
   "django",
-  "django-eav2",
+  "dynamic-fields",
   "eav",
-  "sql",
+  "entity-attribute-value",
 ]
 license = "LGPL-3.0-or-later"
 license-files = [ "LICENSE" ]
 requires-python = ">=3.10"
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 5 - Production/Stable",
   "Environment :: Web Environment",
   "Framework :: Django",
   "Framework :: Django :: 5.2",
@@ -32,7 +32,6 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Programming Language :: Python :: 3.15",
   "Topic :: Database",
   "Topic :: Software Development :: Libraries :: Python Modules",
   "Typing :: Typed",

@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/django-eav2.svg)](https://pypi.org/project/django-eav2/)
 [![Django Version](https://img.shields.io/pypi/djversions/django-eav2.svg?color=green)](https://pypi.org/project/django-eav2/)
 
-## Django EAV 2
+# Django EAV 2
 
 Django EAV 2 stores extra, typed attributes for your Django models without
 changing their tables. Define an attribute once, then read, write, and filter it
