@@ -578,7 +578,7 @@ lint = [
     { name = "wemake-python-styleguide", specifier = ">=1.8,<2" },
 ]
 mysql = [{ name = "mysqlclient", specifier = ">=2.2,<3" }]
-postgres = [{ name = "psycopg", extras = ["binary"], specifier = ">=3.2,<4" }]
+postgres = [{ name = "psycopg", extras = ["binary"], specifier = ">=3.3.6,<4" }]
 test = [
     { name = "hypothesis", specifier = ">=6.87.1,<7" },
     { name = "pytest", specifier = ">=7.4.3,<10" },

@@ -77,7 +77,7 @@ lint = [
   "wemake-python-styleguide>=1.8,<2",
 ]
 mysql = [ "mysqlclient>=2.2,<3" ]
-postgres = [ "psycopg[binary]>=3.2,<4" ]
+postgres = [ "psycopg[binary]>=3.3.6,<4" ]
 
 [tool.hatch]
 [tool.hatch.build]
