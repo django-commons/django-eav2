@@ -4,10 +4,17 @@ We follow [Semantic Versions](https://semver.org/) starting at the `0.14.0` rele
 
 ## Unreleased
 
+## 2.0.2 (2026-10-30)
+
+### Documentation
+
+- Updated project links, security policy and contributing guide for the move to Django Commons.
+
 ### Internal
 
 - Switched to trusted publisher release process with Django Commons.
 - Switched from the Jazzband organization to Django Commons.
+- Refreshed package metadata: new description and keywords, `Production/Stable` classifier, project URLs pointing at Django Commons, and the unsupported Python 3.15 classifier removed.
 
 ## 2.0.1 (2026-10-23)
 

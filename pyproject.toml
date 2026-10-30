@@ -4,7 +4,7 @@ requires = [ "hatchling" ]
 
 [project]
 name = "django-eav2"
-version = "2.0.1"
+version = "2.0.2"
 description = "Add custom fields to any Django model at runtime: validated, filterable with the ORM, and no schema changes."
 readme = "README.md"
 keywords = [
