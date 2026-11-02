@@ -1,0 +1,17 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+    patch:
+      default:
+        target: 90%
+        informational: true
+
+github_checks:
+  annotations: false
+
+comment:
+  layout: "condensed_header, condensed_files, condensed_footer"
+  require_changes: true
