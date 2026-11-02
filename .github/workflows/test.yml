@@ -66,6 +66,8 @@ jobs:
         uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5 # v7.1.1
         with:
           files: ./coverage.xml
+          token: ${{ secrets.CODECOV_TOKEN }}
+          flags: py${{ matrix.python-version }}-dj${{ matrix.django-version }}
 
   test-databases:
     runs-on: ubuntu-latest
@@ -118,6 +120,13 @@ jobs:
       - run: uv sync --group ${{ matrix.database }}
       - run: uv run --no-sync poe unit
       - run: uv run --no-sync poe migrations
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5 # v7.1.1
+        with:
+          files: ./coverage.xml
+          token: ${{ secrets.CODECOV_TOKEN }}
+          flags: ${{ matrix.database }}
 
   test-uuid-keys:
     runs-on: ubuntu-latest
