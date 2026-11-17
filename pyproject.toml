@@ -44,7 +44,7 @@ name = "Mauro Lizaur"
 email = "mauro@sdf.org"
 [project.urls]
 Changelog = "https://github.com/django-commons/django-eav2/blob/main/CHANGELOG.md"
-Documentation = "https://django-eav2.readthedocs.io/en/latest/"
+Documentation = "https://django-eav2.readthedocs.io/"
 Issues = "https://github.com/django-commons/django-eav2/issues"
 Repository = "https://github.com/django-commons/django-eav2"
 
