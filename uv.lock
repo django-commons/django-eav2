@@ -2116,14 +2116,15 @@ wheels = [
 
 [[package]]
 name = "wemake-python-styleguide"
-version = "1.8.1"
+version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
     { name = "flake8" },
     { name = "pygments" },
+    { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/89/9b0637ac41f0d90ac1236ff8dacd887e0f8e3a9853abfd51e2a1319c215a/wemake_python_styleguide-1.8.1.tar.gz", hash = "sha256:a217caaf1cffe2d1168b13c405a204e82fe6c1bfc9f7d0b125dd4ce16624bc5f", size = 163479, upload-time = "2026-09-12T07:17:25.229Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/1f/dba20c04b9cd0312452e8fe3c71cfa94a04c7b3d7031265593c59d192e9b/wemake_python_styleguide-1.9.0.tar.gz", hash = "sha256:42d474e9d248f12f28f39b64ec37173e98010626ef2a13ef7f66236550c2f82e", size = 167046, upload-time = "2026-11-18T11:31:40.667Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/79/9f/c953aab9187aa58669829607791731e5f3aa4b1d2b8d8051baa49dda44df/wemake_python_styleguide-1.8.1-py3-none-any.whl", hash = "sha256:811355a393536583236fa25409dc639809c1bd209f66dab012eb15e9f589784e", size = 227803, upload-time = "2026-09-12T07:17:26.397Z" },
+    { url = "https://files.pythonhosted.org/packages/63/9c/ea1e0002d30eca46123e6088185943904ce1ffa9ddc5a8eaff607225374c/wemake_python_styleguide-1.9.0-py3-none-any.whl", hash = "sha256:39a252ca693897dc014338d6afd4004dd73985e42399a00c719e48b07631ba57", size = 232808, upload-time = "2026-11-18T11:31:41.965Z" },
 ]
